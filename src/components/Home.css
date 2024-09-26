@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px; /* 버튼 간의 간격 조정 */
+    margin-top: 40px; /* 네비게이션 바에서 떨어지도록 설정 */
+}
+
+.bigButton {
+    padding: 30px 60px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: #b1446c;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.bigButton:hover {
+    background-color: #5a45a0;
+}
+

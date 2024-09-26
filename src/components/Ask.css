@@ -1,0 +1,70 @@
+.ask-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.total-count {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.total-count span {
+  color: #4CAF50; /* 숫자를 강조하는 색상 */
+  font-size: 28px;
+}
+
+.ask-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.ask-table th, .ask-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.ask-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.ask-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.ask-table tr:hover {
+  background-color: #e9e9e9;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pagination button.active {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+.pagination button:hover {
+  background-color: #ddd;
+}

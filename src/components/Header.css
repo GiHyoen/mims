@@ -1,0 +1,47 @@
+.header {
+    width: 100%;
+    background-color: #333;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    transition: opacity 0.3s;
+    margin-right: 40px; /* MIMS 로고와 네비게이션 항목 간의 간격 */
+}
+
+.logo:hover {
+    opacity: 0.7;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    margin-right: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navbar li:hover {
+    color: #b9c6b9;
+}
